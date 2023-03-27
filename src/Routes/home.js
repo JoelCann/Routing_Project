@@ -1,5 +1,5 @@
 import React from 'react'
-import audi1 from '../audi1.jpg'
+import audi1 from '../assets/audi1.jpg'
 
 function Homepage() {
 
