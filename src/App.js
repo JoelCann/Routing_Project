@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Aboutpage from './Routes/about.js'
 import Homepage from './Routes/home.js'
 import Contactpage from './Routes/contact.js'
+// import audi1 from './audi1.jpg';
 
 function App() {
   return (
