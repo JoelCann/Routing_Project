@@ -2,13 +2,17 @@ import React from 'react'
 import address from '../assets/address.png'
 import mail from '../assets/mail.png'
 import phone from '../assets/phone.png'
+import '../App.css';
 
 function Contactpage() {
 
     return <div >
-        <div className="bg-dark p-3 text-white">
-            <h1>Contact Page</h1>
+        <div className='text-center'>
+            <div className="bg-dark p-3 text-white grid mt-5 rounded-pill" style={{ width: 500 }}>
+                <h1 style={{ fontWeight: 700 }}>GET IN TOUCH!!</h1>
+            </div>
         </div>
+
 
         <div className='row mt-5 p-5' >
             <div className='col-md-4 p-5'>
@@ -26,6 +30,9 @@ function Contactpage() {
                 <img src={address} /><br /><br />
                 <h5>7d0 NQ Bizarre St*<br />Florida City, Miami<br />GS-11*-110311 </h5>
             </div>
+        </div>
+        <div>
+            <h1>We'd love to hear from you 🙂</h1>
         </div>
     </div>
 

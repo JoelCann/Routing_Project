@@ -8,8 +8,8 @@
 
 .grid {
   display: grid;
-  ;
   place-items: center;
+  margin: auto;
 }
 
 .textmarkup {
